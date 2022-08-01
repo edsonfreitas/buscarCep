@@ -63,11 +63,11 @@ public class Sobre extends JDialog {
 		lblNewLabel_2.setBounds(30, 110, 90, 20);
 		getContentPane().add(lblNewLabel_2);
 		
-		JLabel lblWebService = new JLabel("@edsonfreitas__");
+		JLabel lblWebService = new JLabel("Republica Virtual");
 		lblWebService.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				link("https://www.instagram.com/edsonfreitas__/");
+				link("https://github.com/edsonfreitas/buscarCep/edit/main/BuscarCep/");
 			}
 		});
 		lblWebService.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
