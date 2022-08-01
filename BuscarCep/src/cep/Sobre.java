@@ -67,7 +67,7 @@ public class Sobre extends JDialog {
 		lblWebService.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				link("https://github.com/edsonfreitas/buscarCep/edit/main/BuscarCep/");
+				link("https://www.republicavirtual.com.br/");
 			}
 		});
 		lblWebService.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -79,7 +79,7 @@ public class Sobre extends JDialog {
 		JButton btnGitbub = new JButton("");
 		btnGitbub.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				link("https://github.com/edsonfreitas");
+				link("https://github.com/edsonfreitas/buscarCep/");
 			}
 		});
 		btnGitbub.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
